@@ -1,0 +1,361 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-11-15 21:08:07.387] ** ComfyUI startup time: 2024-11-15 21:08:07.387147
+[2024-11-15 21:08:07.387] ** Platform: Windows
+[2024-11-15 21:08:07.387] ** Python version: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+[2024-11-15 21:08:07.387] ** Python executable: C:\Sofewares\ComfyUI-aki-v1.4\python\python.exe
+[2024-11-15 21:08:07.387] ** ComfyUI Path: C:\Sofewares\ComfyUI-aki-v1.4
+[2024-11-15 21:08:07.387] ** Log path: C:\Sofewares\ComfyUI-aki-v1.4\comfyui.log
+[2024-11-15 21:08:07.394] 
+Prestartup times for custom nodes:
+[2024-11-15 21:08:07.394]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\rgthree-comfy
+[2024-11-15 21:08:07.394]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Marigold
+[2024-11-15 21:08:07.394]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Easy-Use-main
+[2024-11-15 21:08:07.395]    7.5 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Manager
+[2024-11-15 21:08:07.395] 
+Total VRAM 6144 MB, total RAM 15557 MB
+[2024-11-15 21:08:11.422] pytorch version: 2.3.1+cu121
+[2024-11-15 21:08:13.877] xformers version: 0.0.27
+[2024-11-15 21:08:13.877] Set vram state to: NORMAL_VRAM
+[2024-11-15 21:08:13.877] Device: cuda:0 NVIDIA GeForce RTX 3060 Laptop GPU : cudaMallocAsync
+[2024-11-15 21:08:14.343] Using xformers cross attention
+[2024-11-15 21:08:16.290] [Prompt Server] web root: C:\Sofewares\ComfyUI-aki-v1.4\web
+[2024-11-15 21:08:17.530] [AnimateDiffEvo] - [0;31mERROR[0m - No motion models found. Please download one and place in: ['C:\\Sofewares\\ComfyUI-aki-v1.4\\custom_nodes\\ComfyUI-AnimateDiff-Evolved\\models', 'C:\\Sofewares\\ComfyUI-aki-v1.4\\models\\animatediff_models']
+[2024-11-15 21:08:17.589] [Crystools [0;32mINFO[0m] Crystools version: 1.16.6
+[2024-11-15 21:08:17.626] [Crystools [0;32mINFO[0m] CPU: AMD Ryzen 7 6800H with Radeon Graphics - Arch: AMD64 - OS: Windows 10
+[2024-11-15 21:08:17.636] [Crystools [0;32mINFO[0m] Pynvml (Nvidia) initialized.
+[2024-11-15 21:08:17.638] [Crystools [0;32mINFO[0m] GPU/s:
+[2024-11-15 21:08:17.647] [Crystools [0;32mINFO[0m] 0) NVIDIA GeForce RTX 3060 Laptop GPU
+[2024-11-15 21:08:17.647] [Crystools [0;32mINFO[0m] NVIDIA Driver: 561.09
+[2024-11-15 21:08:18.880] [34m[ComfyUI-Easy-Use] server: [0mv1.2.5 [92mLoaded[0m
+[2024-11-15 21:08:18.880] [34m[ComfyUI-Easy-Use] web root: [0mC:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Easy-Use-main\web_version/v2 [92mLoaded[0m
+[2024-11-15 21:08:19.325] ### Loading: ComfyUI-Impact-Pack (V7.11.3)
+[2024-11-15 21:08:21.329] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.7)
+[2024-11-15 21:08:21.364] [Impact Pack] Wildcards loading done.
+[2024-11-15 21:08:21.391] ### Loading: ComfyUI-Inspire-Pack (V1.6)
+[2024-11-15 21:08:21.497] Total VRAM 6144 MB, total RAM 15557 MB
+[2024-11-15 21:08:21.497] pytorch version: 2.3.1+cu121
+[2024-11-15 21:08:21.497] xformers version: 0.0.27
+[2024-11-15 21:08:21.497] Set vram state to: NORMAL_VRAM
+[2024-11-15 21:08:21.497] Device: cuda:0 NVIDIA GeForce RTX 3060 Laptop GPU : cudaMallocAsync
+[2024-11-15 21:08:21.553] ### Loading: ComfyUI-Manager (V2.51.9)
+[2024-11-15 21:08:21.782] ### ComfyUI Revision: 2829 [3b9a6cf2] | Released on '2024-11-13'
+[2024-11-15 21:08:22.192] (pysssss:WD14Tagger) [DEBUG] Available ORT providers: TensorrtExecutionProvider, CUDAExecutionProvider, CPUExecutionProvider
+[2024-11-15 21:08:22.192] (pysssss:WD14Tagger) [DEBUG] Using ORT providers: CUDAExecutionProvider, CPUExecutionProvider
+[2024-11-15 21:08:22.248] Workspace manager - Openning file hash dict
+[2024-11-15 21:08:22.248] 🦄🦄Loading: Workspace Manager (V2.1.0)
+[2024-11-15 21:08:22.300] ------------------------------------------
+[2024-11-15 21:08:22.300] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-11-15 21:08:22.300] ------------------------------------------
+[2024-11-15 21:08:22.300] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-11-15 21:08:22.300] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-11-15 21:08:22.300] ------------------------------------------
+[2024-11-15 21:08:22.323] [36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[2024-11-15 21:08:22.323] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-11-15 21:08:22.323] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-11-15 21:08:22.360] DWPose: Onnxruntime with acceleration providers detected
+[2024-11-15 21:08:22.415] [36;20m[comfyui_controlnet_aux-main] | INFO -> Using ckpts path: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\comfyui_controlnet_aux-main\ckpts[0m
+[2024-11-15 21:08:22.415] [36;20m[comfyui_controlnet_aux-main] | INFO -> Using symlinks: False[0m
+[2024-11-15 21:08:22.415] [36;20m[comfyui_controlnet_aux-main] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-11-15 21:08:22.576] [1;35m### [START] ComfyUI AlekPet Nodes [1;34mv1.0.22[0m[1;35m ###[0m
+[2024-11-15 21:08:26.666] [92mNode -> GoogleTranslateNode: [93mGoogleTranslateCLIPTextEncodeNode, GoogleTranslateTextNode[0m [92m[Loading] [0m
+[2024-11-15 21:08:26.666] [92mNode -> ArgosTranslateNode: [93mArgosTranslateCLIPTextEncodeNode, ArgosTranslateTextNode[0m [92m[Loading] [0m
+[2024-11-15 21:08:26.666] [92mNode -> DeepTranslatorNode: [93mDeepTranslatorCLIPTextEncodeNode, DeepTranslatorTextNode[0m [92m[Loading] [0m
+[2024-11-15 21:08:26.677] [92mNode -> PoseNode: [93mPoseNode[0m [92m[Loading] [0m
+[2024-11-15 21:08:26.678] [92mNode -> ExtrasNode: [93mPreviewTextNode, HexToHueNode, ColorsCorrectNode[0m [92m[Loading] [0m
+[2024-11-15 21:08:26.822] [92mNode -> IDENode: [93mIDENode[0m [92m[Loading] [0m
+[2024-11-15 21:08:27.327] [92mNode -> PainterNode: [93mPainterNode[0m [92m[Loading] [0m
+[2024-11-15 21:08:27.327] [1;35m### [END] ComfyUI AlekPet Nodes ###[0m
+[2024-11-15 21:08:28.250] [34mFizzleDorf Custom Nodes: [92mLoaded[0m
+[2024-11-15 21:08:28.378] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-11-15 21:08:28.386] Patching UNetModel.forward
+[2024-11-15 21:08:28.388] UNetModel.forward has been successfully patched.
+[2024-11-15 21:08:28.407] [1;32m[Power Noise Suite]: 🦚🦚🦚 [93m[3mwark![0m 🦚🦚🦚
+[2024-11-15 21:08:28.407] [1;32m[Power Noise Suite]:[0m Tamed [93m11[0m wild nodes.
+[2024-11-15 21:08:28.442] 
+[2024-11-15 21:08:28.442] [92m[rgthree] Loaded 42 epic nodes.[00m
+[2024-11-15 21:08:28.442] [33m[rgthree] NOTE: Will NOT use rgthree's optimized recursive execution as ComfyUI has changed.[00m
+[2024-11-15 21:08:28.442] 
+[2024-11-15 21:08:28.450] 
+Import times for custom nodes:
+[2024-11-15 21:08:28.450]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\websocket_image_save.py
+[2024-11-15 21:08:28.450]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\AIGODLIKE-ComfyUI-Translation
+[2024-11-15 21:08:28.450]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_SimpleMath
+[2024-11-15 21:08:28.450]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ControlNet-LLLite-ComfyUI
+[2024-11-15 21:08:28.451]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\FreeU_Advanced
+[2024-11-15 21:08:28.451]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_TiledKSampler
+[2024-11-15 21:08:28.451]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\stability-ComfyUI-nodes
+[2024-11-15 21:08:28.451]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-WD14-Tagger
+[2024-11-15 21:08:28.451]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_experiments
+[2024-11-15 21:08:28.451]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\PowerNoiseSuite
+[2024-11-15 21:08:28.452]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_IPAdapter_plus
+[2024-11-15 21:08:28.452]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\comfyui-inpaint-nodes-main
+[2024-11-15 21:08:28.452]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Dev-Utils
+[2024-11-15 21:08:28.452]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\images-grid-comfy-plugin
+[2024-11-15 21:08:28.452]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\comfyui-tooling-nodes-main
+[2024-11-15 21:08:28.452]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-layerdiffuse
+[2024-11-15 21:08:28.452]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Custom-Scripts
+[2024-11-15 21:08:28.452]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_UltimateSDUpscale
+[2024-11-15 21:08:28.452]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_essentials
+[2024-11-15 21:08:28.452]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-GGUF
+[2024-11-15 21:08:28.452]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Advanced-ControlNet
+[2024-11-15 21:08:28.452]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\Derfuu_ComfyUI_ModdedNodes
+[2024-11-15 21:08:28.452]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_IPAdapter_plus-main
+[2024-11-15 21:08:28.452]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\rgthree-comfy
+[2024-11-15 21:08:28.453]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\efficiency-nodes-comfyui
+[2024-11-15 21:08:28.453]    0.1 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\comfyui-workspace-manager
+[2024-11-15 21:08:28.453]    0.1 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Marigold
+[2024-11-15 21:08:28.453]    0.1 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-KJNodes
+[2024-11-15 21:08:28.453]    0.1 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-AnimateDiff-Evolved
+[2024-11-15 21:08:28.453]    0.1 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_Comfyroll_CustomNodes
+[2024-11-15 21:08:28.453]    0.1 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Inspire-Pack
+[2024-11-15 21:08:28.453]    0.1 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\comfyui_controlnet_aux
+[2024-11-15 21:08:28.453]    0.1 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Crystools
+[2024-11-15 21:08:28.453]    0.2 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\comfyui_controlnet_aux-main
+[2024-11-15 21:08:28.453]    0.4 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Florence2-main
+[2024-11-15 21:08:28.453]    0.6 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Manager
+[2024-11-15 21:08:28.453]    0.6 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_FizzNodes
+[2024-11-15 21:08:28.453]    1.2 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Easy-Use-main
+[2024-11-15 21:08:28.454]    2.1 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Impact-Pack
+[2024-11-15 21:08:28.454]    5.1 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_Custom_Nodes_AlekPet
+[2024-11-15 21:08:28.454] 
+[2024-11-15 21:08:28.476] Starting server
+
+[2024-11-15 21:08:28.476] To see the GUI go to: http://127.0.0.1:8188
+[2024-11-15 21:08:30.219] FETCH DATA from: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
+[2024-11-15 21:08:33.014] Start Log Catchers...
+[2024-11-15 21:08:33.015] [LogConsole] client [fdec6fa937f142e7a31898b666a9805e], console [e0395a93-2b46-491d-a85d-a3b904cdc35c], connected
+[2024-11-15 21:08:43.614] Exception in thread Thread-9 (<lambda>):
+[2024-11-15 21:08:43.615] Traceback (most recent call last):
+[2024-11-15 21:08:43.615]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\connector.py", line 980, in _wrap_create_connection
+[2024-11-15 21:08:43.616]     return await self._loop.create_connection(*args, **kwargs)  # type: ignore[return-value]  # noqa
+[2024-11-15 21:08:43.616]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\base_events.py", line 1076, in create_connection
+[2024-11-15 21:08:43.616]     raise exceptions[0]
+[2024-11-15 21:08:43.616]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\base_events.py", line 1060, in create_connection
+[2024-11-15 21:08:43.617]     sock = await self._connect_sock(
+[2024-11-15 21:08:43.617]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\base_events.py", line 969, in _connect_sock
+[2024-11-15 21:08:43.618]     await self.sock_connect(sock, address)
+[2024-11-15 21:08:43.618]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\proactor_events.py", line 709, in sock_connect
+[2024-11-15 21:08:43.618]     return await self._proactor.connect(sock, address)
+[2024-11-15 21:08:43.619]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\windows_events.py", line 826, in _poll
+[2024-11-15 21:08:43.619]     value = callback(transferred, key, ov)
+[2024-11-15 21:08:43.619]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\windows_events.py", line 613, in finish_connect
+[2024-11-15 21:08:43.620]     ov.getresult()
+[2024-11-15 21:08:43.620] OSError: [WinError 121] 信号灯超时时间已到
+[2024-11-15 21:08:43.620] 
+The above exception was the direct cause of the following exception:
+
+[2024-11-15 21:08:43.620] Traceback (most recent call last):
+[2024-11-15 21:08:43.620]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\threading.py", line 1016, in _bootstrap_inner
+[2024-11-15 21:08:43.620]     self.run()
+[2024-11-15 21:08:43.620]   File "<enhanced_experience vendors.sentry_sdk.integrations.threading>", line 99, in run
+[2024-11-15 21:08:43.625]   File "<enhanced_experience vendors.sentry_sdk.integrations.threading>", line 94, in _run_old_run_func
+[2024-11-15 21:08:43.629]   File "<enhanced_experience vendors.sentry_sdk.utils>", line 1649, in reraise
+[2024-11-15 21:08:43.633]   File "<enhanced_experience vendors.sentry_sdk.integrations.threading>", line 92, in _run_old_run_func
+[2024-11-15 21:08:43.636]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\threading.py", line 953, in run
+[2024-11-15 21:08:43.636]     self._target(*self._args, **self._kwargs)
+[2024-11-15 21:08:43.636]   File "C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Manager\glob\manager_server.py", line 1339, in <lambda>
+[2024-11-15 21:08:43.638]     threading.Thread(target=lambda: asyncio.run(default_cache_update())).start()
+[2024-11-15 21:08:43.638]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\runners.py", line 44, in run
+[2024-11-15 21:08:43.638]     return loop.run_until_complete(main)
+[2024-11-15 21:08:43.638]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\base_events.py", line 649, in run_until_complete
+[2024-11-15 21:08:43.639]     return future.result()
+[2024-11-15 21:08:43.639]   File "C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Manager\glob\manager_server.py", line 1336, in default_cache_update
+[2024-11-15 21:08:43.640]     await asyncio.gather(a, b, c, d, e)
+[2024-11-15 21:08:43.640]   File "C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Manager\glob\manager_server.py", line 1323, in get_cache
+[2024-11-15 21:08:43.640]     json_obj = await core.get_data(uri, True)
+[2024-11-15 21:08:43.640]   File "C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Manager\glob\manager_core.py", line 620, in get_data
+[2024-11-15 21:08:43.641]     async with session.get(uri) as resp:
+[2024-11-15 21:08:43.641]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+[2024-11-15 21:08:43.641]     self._resp = await self._coro
+[2024-11-15 21:08:43.641]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\client.py", line 536, in _request
+[2024-11-15 21:08:43.642]     conn = await self._connector.connect(
+[2024-11-15 21:08:43.642]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\connector.py", line 540, in connect
+[2024-11-15 21:08:43.642]     proto = await self._create_connection(req, traces, timeout)
+[2024-11-15 21:08:43.642]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+[2024-11-15 21:08:43.642]     _, proto = await self._create_direct_connection(req, traces, timeout)
+[2024-11-15 21:08:43.642]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\connector.py", line 1209, in _create_direct_connection
+[2024-11-15 21:08:43.644]     raise last_exc
+[2024-11-15 21:08:43.644]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\connector.py", line 1178, in _create_direct_connection
+[2024-11-15 21:08:43.644]     transp, proto = await self._wrap_create_connection(
+[2024-11-15 21:08:43.645]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\connector.py", line 988, in _wrap_create_connection
+[2024-11-15 21:08:43.645]     raise client_error(req.connection_key, exc) from exc
+[2024-11-15 21:08:43.645] aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host raw.githubusercontent.com:443 ssl:default [信号灯超时时间已到]
+[2024-11-15 21:09:11.778] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:09:32.851] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:09:53.899] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:10:14.963] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:10:36.032] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:10:57.093] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:11:18.145] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:11:39.205] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:12:00.249] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:12:21.299] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:12:42.348] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:13:03.400] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:13:24.474] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:13:45.521] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:14:06.575] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:14:27.641] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:14:48.711] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:15:09.752] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:15:30.801] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:15:51.845] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:16:12.896] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:16:33.962] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:16:55.030] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:17:16.079] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:17:37.138] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:17:58.193] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:18:19.244] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:18:40.281] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:19:01.327] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:19:22.384] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:19:43.450] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:20:04.495] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:20:25.560] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:20:46.624] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:21:07.688] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:21:28.757] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:21:49.815] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:22:10.876] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:22:31.922] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:22:52.989] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:23:14.044] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:23:35.114] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:23:56.183] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:24:17.237] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:24:38.313] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:24:59.363] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:25:20.411] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:25:41.473] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:26:02.549] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:26:23.599] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:26:44.642] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:27:05.699] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:27:26.775] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:27:47.826] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:28:08.902] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:28:29.968] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:28:51.036] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:29:12.088] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:29:33.159] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:29:54.225] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:30:15.261] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:30:36.327] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:30:57.377] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:31:18.444] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:31:39.507] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:32:00.571] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:32:21.610] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:32:42.668] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:33:03.732] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:33:24.787] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:33:45.831] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:34:06.884] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:34:27.933] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:34:49.002] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:35:10.058] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:35:31.103] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:35:52.170] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:36:13.217] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:36:34.295] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:36:55.368] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:37:16.425] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:37:37.492] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:37:58.558] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:38:19.609] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:38:40.664] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:39:01.703] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:39:22.775] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:39:43.823] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:40:04.870] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:40:25.920] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:40:46.988] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:41:08.040] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:41:29.108] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:41:50.165] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:42:11.216] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:42:32.289] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:42:53.335] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:43:14.424] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:43:35.484] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:43:56.747] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:44:17.796] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:44:38.850] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:44:59.894] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:45:20.974] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:45:42.034] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:46:03.094] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:46:24.147] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:46:45.200] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:47:06.251] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:47:27.298] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:47:48.346] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:48:09.419] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:48:30.471] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:48:51.542] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:49:12.607] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:49:33.667] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:49:54.742] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:50:15.797] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:50:36.850] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:50:57.897] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:51:18.952] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:51:40.008] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:52:01.075] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:52:22.124] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:52:43.195] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:53:04.242] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:53:25.307] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:53:46.366] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:54:07.398] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:54:28.456] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:54:49.500] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:55:10.549] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:55:31.597] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:55:52.632] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:56:13.670] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:56:34.715] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:56:55.778] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:57:16.846] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:57:37.898] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:57:58.952] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:58:20.022] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:58:41.078] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:59:02.127] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:59:23.159] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 21:59:44.218] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:00:05.275] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:00:26.323] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:00:47.377] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:01:08.438] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:01:29.492] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:01:50.557] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:02:11.625] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:02:32.680] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:02:53.743] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:03:14.795] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:03:35.855] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:03:56.909] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:04:17.969] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:04:39.031] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:05:00.101] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:05:21.173] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:05:42.226] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:06:03.264] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:06:24.314] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:06:45.377] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:07:06.445] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:07:27.498] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:07:48.545] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:08:09.607] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:08:30.673] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:08:51.732] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:09:12.796] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:09:33.851] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:09:54.901] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:10:15.964] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:10:37.019] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:10:58.077] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:11:19.143] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 22:11:40.193] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)

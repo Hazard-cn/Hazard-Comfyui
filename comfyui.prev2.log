@@ -1,0 +1,181 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-11-15 10:31:53.442] ** ComfyUI startup time: 2024-11-15 10:31:53.442741
+[2024-11-15 10:31:53.442] ** Platform: Windows
+[2024-11-15 10:31:53.444] ** Python version: 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]
+[2024-11-15 10:31:53.444] ** Python executable: C:\Sofewares\ComfyUI-aki-v1.4\python\python.exe
+[2024-11-15 10:31:53.444] ** ComfyUI Path: C:\Sofewares\ComfyUI-aki-v1.4
+[2024-11-15 10:31:53.444] ** Log path: C:\Sofewares\ComfyUI-aki-v1.4\comfyui.log
+[2024-11-15 10:31:53.450] 
+Prestartup times for custom nodes:
+[2024-11-15 10:31:53.450]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\rgthree-comfy
+[2024-11-15 10:31:53.451]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Easy-Use-main
+[2024-11-15 10:31:53.451]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Marigold
+[2024-11-15 10:31:53.451]    7.4 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Manager
+[2024-11-15 10:31:53.451] 
+Total VRAM 6144 MB, total RAM 15557 MB
+[2024-11-15 10:31:55.956] pytorch version: 2.3.1+cu121
+[2024-11-15 10:31:57.766] xformers version: 0.0.27
+[2024-11-15 10:31:57.766] Set vram state to: NORMAL_VRAM
+[2024-11-15 10:31:57.766] Device: cuda:0 NVIDIA GeForce RTX 3060 Laptop GPU : cudaMallocAsync
+[2024-11-15 10:31:58.110] Using xformers cross attention
+[2024-11-15 10:31:59.453] [Prompt Server] web root: C:\Sofewares\ComfyUI-aki-v1.4\web
+[2024-11-15 10:32:00.403] [AnimateDiffEvo] - [0;31mERROR[0m - No motion models found. Please download one and place in: ['C:\\Sofewares\\ComfyUI-aki-v1.4\\custom_nodes\\ComfyUI-AnimateDiff-Evolved\\models', 'C:\\Sofewares\\ComfyUI-aki-v1.4\\models\\animatediff_models']
+[2024-11-15 10:32:00.446] [Crystools [0;32mINFO[0m] Crystools version: 1.16.6
+[2024-11-15 10:32:00.475] [Crystools [0;32mINFO[0m] CPU: AMD Ryzen 7 6800H with Radeon Graphics - Arch: AMD64 - OS: Windows 10
+[2024-11-15 10:32:00.486] [Crystools [0;32mINFO[0m] Pynvml (Nvidia) initialized.
+[2024-11-15 10:32:00.486] [Crystools [0;32mINFO[0m] GPU/s:
+[2024-11-15 10:32:00.498] [Crystools [0;32mINFO[0m] 0) NVIDIA GeForce RTX 3060 Laptop GPU
+[2024-11-15 10:32:00.498] [Crystools [0;32mINFO[0m] NVIDIA Driver: 561.09
+[2024-11-15 10:32:01.553] [34m[ComfyUI-Easy-Use] server: [0mv1.2.5 [92mLoaded[0m
+[2024-11-15 10:32:01.553] [34m[ComfyUI-Easy-Use] web root: [0mC:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Easy-Use-main\web_version/v2 [92mLoaded[0m
+[2024-11-15 10:32:01.933] ### Loading: ComfyUI-Impact-Pack (V7.11.3)
+[2024-11-15 10:32:02.817] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.7)
+[2024-11-15 10:32:02.852] [Impact Pack] Wildcards loading done.
+[2024-11-15 10:32:02.875] ### Loading: ComfyUI-Inspire-Pack (V1.6)
+[2024-11-15 10:32:02.963] Total VRAM 6144 MB, total RAM 15557 MB
+[2024-11-15 10:32:02.963] pytorch version: 2.3.1+cu121
+[2024-11-15 10:32:02.963] xformers version: 0.0.27
+[2024-11-15 10:32:02.964] Set vram state to: NORMAL_VRAM
+[2024-11-15 10:32:02.964] Device: cuda:0 NVIDIA GeForce RTX 3060 Laptop GPU : cudaMallocAsync
+[2024-11-15 10:32:03.013] ### Loading: ComfyUI-Manager (V2.51.9)
+[2024-11-15 10:32:03.238] ### ComfyUI Revision: 2829 [3b9a6cf2] | Released on '2024-11-13'
+[2024-11-15 10:32:03.630] (pysssss:WD14Tagger) [DEBUG] Available ORT providers: TensorrtExecutionProvider, CUDAExecutionProvider, CPUExecutionProvider
+[2024-11-15 10:32:03.630] (pysssss:WD14Tagger) [DEBUG] Using ORT providers: CUDAExecutionProvider, CPUExecutionProvider
+[2024-11-15 10:32:03.676] Workspace manager - Openning file hash dict
+[2024-11-15 10:32:03.676] 🦄🦄Loading: Workspace Manager (V2.1.0)
+[2024-11-15 10:32:03.719] ------------------------------------------
+[2024-11-15 10:32:03.719] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-11-15 10:32:03.719] ------------------------------------------
+[2024-11-15 10:32:03.719] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-11-15 10:32:03.719] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-11-15 10:32:03.719] ------------------------------------------
+[2024-11-15 10:32:03.738] [36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[2024-11-15 10:32:03.738] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-11-15 10:32:03.738] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-11-15 10:32:03.768] DWPose: Onnxruntime with acceleration providers detected
+[2024-11-15 10:32:03.805] [1;35m### [START] ComfyUI AlekPet Nodes [1;34mv1.0.22[0m[1;35m ###[0m
+[2024-11-15 10:32:07.914] [92mNode -> ArgosTranslateNode: [93mArgosTranslateCLIPTextEncodeNode, ArgosTranslateTextNode[0m [92m[Loading] [0m
+[2024-11-15 10:32:07.922] [92mNode -> DeepTranslatorNode: [93mDeepTranslatorCLIPTextEncodeNode, DeepTranslatorTextNode[0m [92m[Loading] [0m
+[2024-11-15 10:32:07.922] [92mNode -> GoogleTranslateNode: [93mGoogleTranslateCLIPTextEncodeNode, GoogleTranslateTextNode[0m [92m[Loading] [0m
+[2024-11-15 10:32:07.931] [92mNode -> ExtrasNode: [93mPreviewTextNode, HexToHueNode, ColorsCorrectNode[0m [92m[Loading] [0m
+[2024-11-15 10:32:07.931] [92mNode -> PoseNode: [93mPoseNode[0m [92m[Loading] [0m
+[2024-11-15 10:32:08.036] [92mNode -> IDENode: [93mIDENode[0m [92m[Loading] [0m
+[2024-11-15 10:32:08.435] [92mNode -> PainterNode: [93mPainterNode[0m [92m[Loading] [0m
+[2024-11-15 10:32:08.435] [1;35m### [END] ComfyUI AlekPet Nodes ###[0m
+[2024-11-15 10:32:09.047] [34mFizzleDorf Custom Nodes: [92mLoaded[0m
+[2024-11-15 10:32:09.122] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-11-15 10:32:09.129] Patching UNetModel.forward
+[2024-11-15 10:32:09.131] UNetModel.forward has been successfully patched.
+[2024-11-15 10:32:09.145] [1;32m[Power Noise Suite]: 🦚🦚🦚 [93m[3mHrruuh-hhruh!!![0m 🦚🦚🦚
+[2024-11-15 10:32:09.146] [1;32m[Power Noise Suite]:[0m Tamed [93m11[0m wild nodes.
+[2024-11-15 10:32:09.172] 
+[2024-11-15 10:32:09.173] [92m[rgthree] Loaded 42 fantastic nodes.[00m
+[2024-11-15 10:32:09.173] [33m[rgthree] NOTE: Will NOT use rgthree's optimized recursive execution as ComfyUI has changed.[00m
+[2024-11-15 10:32:09.173] 
+[2024-11-15 10:32:09.179] 
+Import times for custom nodes:
+[2024-11-15 10:32:09.179]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\websocket_image_save.py
+[2024-11-15 10:32:09.179]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\AIGODLIKE-ComfyUI-Translation
+[2024-11-15 10:32:09.179]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_SimpleMath
+[2024-11-15 10:32:09.179]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ControlNet-LLLite-ComfyUI
+[2024-11-15 10:32:09.179]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\FreeU_Advanced
+[2024-11-15 10:32:09.179]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_TiledKSampler
+[2024-11-15 10:32:09.179]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\stability-ComfyUI-nodes
+[2024-11-15 10:32:09.179]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-WD14-Tagger
+[2024-11-15 10:32:09.179]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\PowerNoiseSuite
+[2024-11-15 10:32:09.179]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_experiments
+[2024-11-15 10:32:09.179]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_IPAdapter_plus
+[2024-11-15 10:32:09.179]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Dev-Utils
+[2024-11-15 10:32:09.179]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\comfyui-inpaint-nodes-main
+[2024-11-15 10:32:09.179]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\images-grid-comfy-plugin
+[2024-11-15 10:32:09.180]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Custom-Scripts
+[2024-11-15 10:32:09.180]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\comfyui-tooling-nodes-main
+[2024-11-15 10:32:09.180]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-layerdiffuse
+[2024-11-15 10:32:09.180]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_UltimateSDUpscale
+[2024-11-15 10:32:09.180]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_essentials
+[2024-11-15 10:32:09.180]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-GGUF
+[2024-11-15 10:32:09.180]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\Derfuu_ComfyUI_ModdedNodes
+[2024-11-15 10:32:09.180]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Advanced-ControlNet
+[2024-11-15 10:32:09.180]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\rgthree-comfy
+[2024-11-15 10:32:09.180]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\efficiency-nodes-comfyui
+[2024-11-15 10:32:09.180]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\comfyui-workspace-manager
+[2024-11-15 10:32:09.180]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-KJNodes
+[2024-11-15 10:32:09.180]    0.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Marigold
+[2024-11-15 10:32:09.180]    0.1 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_Comfyroll_CustomNodes
+[2024-11-15 10:32:09.180]    0.1 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-AnimateDiff-Evolved
+[2024-11-15 10:32:09.180]    0.1 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\comfyui_controlnet_aux
+[2024-11-15 10:32:09.180]    0.1 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Inspire-Pack
+[2024-11-15 10:32:09.180]    0.1 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Crystools
+[2024-11-15 10:32:09.180]    0.3 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Florence2-main
+[2024-11-15 10:32:09.181]    0.4 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_FizzNodes
+[2024-11-15 10:32:09.181]    0.6 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Manager
+[2024-11-15 10:32:09.181]    0.9 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Impact-Pack
+[2024-11-15 10:32:09.181]    1.0 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Easy-Use-main
+[2024-11-15 10:32:09.181]    4.8 seconds: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI_Custom_Nodes_AlekPet
+[2024-11-15 10:32:09.181] 
+[2024-11-15 10:32:09.204] Starting server
+
+[2024-11-15 10:32:09.205] To see the GUI go to: http://127.0.0.1:8188
+[2024-11-15 10:32:10.960] FETCH DATA from: C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
+[2024-11-15 10:32:24.939] Exception in thread Thread-9 (<lambda>):
+[2024-11-15 10:32:24.939] Traceback (most recent call last):
+[2024-11-15 10:32:24.939]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\connector.py", line 980, in _wrap_create_connection
+[2024-11-15 10:32:24.940]     return await self._loop.create_connection(*args, **kwargs)  # type: ignore[return-value]  # noqa
+[2024-11-15 10:32:24.940]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\base_events.py", line 1076, in create_connection
+[2024-11-15 10:32:24.940]     raise exceptions[0]
+[2024-11-15 10:32:24.941]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\base_events.py", line 1060, in create_connection
+[2024-11-15 10:32:24.941]     sock = await self._connect_sock(
+[2024-11-15 10:32:24.941]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\base_events.py", line 969, in _connect_sock
+[2024-11-15 10:32:24.941]     await self.sock_connect(sock, address)
+[2024-11-15 10:32:24.941]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\proactor_events.py", line 709, in sock_connect
+[2024-11-15 10:32:24.942]     return await self._proactor.connect(sock, address)
+[2024-11-15 10:32:24.942]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\windows_events.py", line 826, in _poll
+[2024-11-15 10:32:24.942]     value = callback(transferred, key, ov)
+[2024-11-15 10:32:24.942]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\windows_events.py", line 613, in finish_connect
+[2024-11-15 10:32:24.942]     ov.getresult()
+[2024-11-15 10:32:24.943] OSError: [WinError 121] 信号灯超时时间已到
+[2024-11-15 10:32:24.943] 
+The above exception was the direct cause of the following exception:
+
+[2024-11-15 10:32:24.943] Traceback (most recent call last):
+[2024-11-15 10:32:24.943]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\threading.py", line 1016, in _bootstrap_inner
+[2024-11-15 10:32:24.943]     self.run()
+[2024-11-15 10:32:24.943]   File "<enhanced_experience vendors.sentry_sdk.integrations.threading>", line 99, in run
+[2024-11-15 10:32:24.946]   File "<enhanced_experience vendors.sentry_sdk.integrations.threading>", line 94, in _run_old_run_func
+[2024-11-15 10:32:24.948]   File "<enhanced_experience vendors.sentry_sdk.utils>", line 1649, in reraise
+[2024-11-15 10:32:24.951]   File "<enhanced_experience vendors.sentry_sdk.integrations.threading>", line 92, in _run_old_run_func
+[2024-11-15 10:32:24.954]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\threading.py", line 953, in run
+[2024-11-15 10:32:24.954]     self._target(*self._args, **self._kwargs)
+[2024-11-15 10:32:24.954]   File "C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Manager\glob\manager_server.py", line 1339, in <lambda>
+[2024-11-15 10:32:24.955]     threading.Thread(target=lambda: asyncio.run(default_cache_update())).start()
+[2024-11-15 10:32:24.955]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\runners.py", line 44, in run
+[2024-11-15 10:32:24.955]     return loop.run_until_complete(main)
+[2024-11-15 10:32:24.955]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\asyncio\base_events.py", line 649, in run_until_complete
+[2024-11-15 10:32:24.955]     return future.result()
+[2024-11-15 10:32:24.955]   File "C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Manager\glob\manager_server.py", line 1336, in default_cache_update
+[2024-11-15 10:32:24.956]     await asyncio.gather(a, b, c, d, e)
+[2024-11-15 10:32:24.956]   File "C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Manager\glob\manager_server.py", line 1323, in get_cache
+[2024-11-15 10:32:24.956]     json_obj = await core.get_data(uri, True)
+[2024-11-15 10:32:24.956]   File "C:\Sofewares\ComfyUI-aki-v1.4\custom_nodes\ComfyUI-Manager\glob\manager_core.py", line 620, in get_data
+[2024-11-15 10:32:24.957]     async with session.get(uri) as resp:
+[2024-11-15 10:32:24.957]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\client.py", line 1141, in __aenter__
+[2024-11-15 10:32:24.957]     self._resp = await self._coro
+[2024-11-15 10:32:24.957]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\client.py", line 536, in _request
+[2024-11-15 10:32:24.957]     conn = await self._connector.connect(
+[2024-11-15 10:32:24.957]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\connector.py", line 540, in connect
+[2024-11-15 10:32:24.958]     proto = await self._create_connection(req, traces, timeout)
+[2024-11-15 10:32:24.958]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+[2024-11-15 10:32:24.958]     _, proto = await self._create_direct_connection(req, traces, timeout)
+[2024-11-15 10:32:24.958]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\connector.py", line 1209, in _create_direct_connection
+[2024-11-15 10:32:24.958]     raise last_exc
+[2024-11-15 10:32:24.958]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\connector.py", line 1178, in _create_direct_connection
+[2024-11-15 10:32:24.959]     transp, proto = await self._wrap_create_connection(
+[2024-11-15 10:32:24.959]   File "C:\Sofewares\ComfyUI-aki-v1.4\python\lib\site-packages\aiohttp\connector.py", line 988, in _wrap_create_connection
+[2024-11-15 10:32:24.959]     raise client_error(req.connection_key, exc) from exc
+[2024-11-15 10:32:24.959] aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host raw.githubusercontent.com:443 ssl:default [信号灯超时时间已到]
+[2024-11-15 10:32:37.540] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 10:32:58.594] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 10:33:19.646] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 10:33:40.710] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 10:34:01.762] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
+[2024-11-15 10:34:22.794] (URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)),)
